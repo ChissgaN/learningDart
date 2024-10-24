@@ -7,7 +7,6 @@ void main() {
 
 class Cuadrado {
   double _lado = 0.0;
-  double _area = 0.0;
 
   set lado(double valor) {
     if (valor <= 0) {
